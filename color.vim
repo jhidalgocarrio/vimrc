@@ -8,4 +8,5 @@ if has('gui_running')
 end
 
 silent! colorscheme solarized
-"silent! colorscheme elflord 
+hi Normal ctermfg=252
+"silent! colorscheme elflord
