@@ -1,6 +1,9 @@
 " Vim plugin that displays tags in a window, ordered by class etc
 NeoBundle 'majutsushi/tagbar'
 
+let Tlist_Ctags_Cmd = "/usr/bin/ctags"
+let Tlist_WinWidth = 50
+
 "Genertae the tags
 map <F4> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
