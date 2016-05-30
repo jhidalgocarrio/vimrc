@@ -14,7 +14,7 @@ let g:neocomplete#enable_smart_case                 = 1
 let g:neocomplete#sources#syntax#min_keyword_length = 3
 let g:neocomplete#lock_buffer_name_pattern          = '\*ku\*'
 let g:neocomplete#enable_auto_delimiter             = 1
-let g:neocomplete#enable_refresh_always             = 1
+let g:neocomplete#enable_refresh_always             = 0
 
 " for vim-lua-plugin
 let g:neocomplete#force_overwrite_completefunc      = 1
