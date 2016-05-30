@@ -42,5 +42,7 @@ git clone https://github.com/Shougo/neobundle.vim $BUNDLE_DIR
 . $BUNDLE_DIR/bin/neoinstall
 info "Done."
 
+cp .ycm_extra_conf.py ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py
+
 echo ""
 info "OK! Happy hacking."
