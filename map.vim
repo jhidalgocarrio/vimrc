@@ -9,8 +9,8 @@ nnoremap <C-l> <C-w>l
 
 "nnoremap <Up> <C-w>+
 "nnoremap <Down> <C-w>-
-nnoremap <Left> <C-w><
-nnoremap <Right> <C-w>>
+"nnoremap <Left> <C-w><
+"nnoremap <Right> <C-w>>
 " }}}
 
 " Mapping for tab management {{{
