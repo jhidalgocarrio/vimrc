@@ -7,8 +7,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
-nnoremap <Up> <C-w>+
-nnoremap <Down> <C-w>-
+"nnoremap <Up> <C-w>+
+"nnoremap <Down> <C-w>-
 nnoremap <Left> <C-w><
 nnoremap <Right> <C-w>>
 " }}}
