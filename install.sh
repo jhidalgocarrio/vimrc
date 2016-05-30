@@ -26,7 +26,7 @@ fi
 # make bundle dir and fetch neobundle
 info "Begin fetching vimrc."
 mkdir -p $VIM_DIR
-git clone https://github.com/Xuyuanp/vimrc $VIM_DIR
+git clone https://github.com/jhidalgocarrio/vimrc $VIM_DIR
 info "Done."
 
 if [ -s ~/.vimrc ]; then
