@@ -6,6 +6,9 @@ set encoding=utf8 nobomb
 
 set modeline
 
+" Anable spelling
+set spell
+
 " Enable filetype plugin
 set completeopt=longest,menu
 
@@ -114,3 +117,10 @@ set tw=800
 
 set smartindent
 set autoindent
+
+" --------------------------------
+"Hardcopy printing to pdf
+" --------------------------------
+set pdev=pdf
+set printoptions=paper:A4,syntax:y,wrap:y,duplex:long
+
