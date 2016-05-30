@@ -8,5 +8,11 @@ if has('gui_running')
 end
 
 silent! colorscheme solarized
+
+" Normal text in more white color
 hi Normal ctermfg=252
+
+" Red background in bad spelling words
+hi SpellBad ctermbg=124
+
 "silent! colorscheme elflord
