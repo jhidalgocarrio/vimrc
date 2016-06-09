@@ -43,7 +43,7 @@ git clone https://github.com/Shougo/neobundle.vim $BUNDLE_DIR
 info "Done."
 
 info "Installing YouCompleteMe"
-if [ -d "~/.vim/bundle/YouCompleteMe" ]; then
+if [ -f ~/.vim/bundle/YouCompleteMe/install.py ]; then
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --clang-completer
     cd --
