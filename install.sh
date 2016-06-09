@@ -42,5 +42,16 @@ git clone https://github.com/Shougo/neobundle.vim $BUNDLE_DIR
 . $BUNDLE_DIR/bin/neoinstall
 info "Done."
 
+info "Installing YouCompleteMe"
+if [ -d "~/.vim/bundle/YouCompleteMe" ]; then
+    cd ~/.vim/bundle/YouCompleteMe
+    ./install.py --clang-completer
+    cd --
+    info "Done"
+else
+    info "[Error] YouCompleteMe is not selected in bundles"
+fi
+
+
 echo ""
 info "OK! Happy hacking."
