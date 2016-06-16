@@ -16,6 +16,9 @@ set completeopt=longest,menu
 set autoread
 " set autochdir
 
+" Enable 80 chractares width
+set textwidth=80
+
 " Have the mouse enabled all the time:
 set mouse=a
 
