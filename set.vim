@@ -116,7 +116,6 @@ set backspace=indent,eol,start
 
 set smarttab
 set lbr
-set tw=800
 
 set smartindent
 set autoindent
@@ -127,3 +126,6 @@ set autoindent
 set pdev=pdf
 set printoptions=paper:A4,syntax:y,wrap:y,duplex:long
 
+if has('conceal')
+    set conceallevel=2 concealcursor=v
+endif
