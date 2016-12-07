@@ -18,5 +18,5 @@ smap <expr><TAB> neosnippet#jumpable() ?
 
 " For snippet_complete marker.
 if has('conceal')
-    set conceallevel=2 concealcursor=i
+    set conceallevel=2 concealcursor=v
 endif
