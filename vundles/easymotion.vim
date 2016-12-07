@@ -1,3 +1,3 @@
 " Vim motions on speed!
-NeoBundle 'Lokaltog/vim-easymotion'
+NeoBundle 'easymotion/vim-easymotion'
 
