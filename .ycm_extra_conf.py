@@ -14,7 +14,7 @@ mandatory_flags = [
     '-Wextra',
     '-Werror',
     '-Wpedantic',
-    '-Wno-long-long',
+    '-Wno-gnu-statement-expression',
     '-Wno-variadic-macros',
     '-fexceptions',
     '-DUSE_CLANG_COMPLETER',
