@@ -71,3 +71,13 @@ nnoremap <C-]> <C-]>zz
 " Auto close {{{
 inoremap <C-c> <CR>}<Esc>O
 " }}}
+
+nnoremap <F4> :YcmCompleter GoToDefinition<CR>
+nnoremap <F5> :YcmCompleter GoToDeclaration<CR>
+
+"Some little help here
+"gf is go to file: it can jump to header files in include declaration
+"Ctrl+e is the NeerdTree openview
+":Gblame is a fugitive command
+"
+"
