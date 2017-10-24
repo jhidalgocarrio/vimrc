@@ -72,6 +72,7 @@ nnoremap <C-]> <C-]>zz
 inoremap <C-c> <CR>}<Esc>O
 " }}}
 
+nnoremap <F2> :YcmDebugInfo<CR>
 nnoremap <F4> :YcmCompleter GoToDefinition<CR>
 nnoremap <F5> :YcmCompleter GoToDeclaration<CR>
 
