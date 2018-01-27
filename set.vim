@@ -27,6 +27,11 @@ set modifiable
 " Enable syntax
 syntax enable
 
+" Check spelling For large tex file when writing text.
+" It penalizes speed.
+syn sync maxlines=2000
+syn sync minlines=500
+
 " guioptions {{{
 if has('gui_running')
     set guioptions-=m
