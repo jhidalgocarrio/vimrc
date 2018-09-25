@@ -35,6 +35,7 @@ let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+let g:ycm_always_populate_location_list = 1
 
 " from ultisnips help:
 " Supertab - UltiSnips has built-in support for Supertab. Just use a recent
