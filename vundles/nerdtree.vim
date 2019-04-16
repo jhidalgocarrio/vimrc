@@ -10,7 +10,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 "Ctrl+n to open the tree
-map <C-E> :NERDTreeToggle<CR>
+map <C-N> :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks               = 1
 let NERDTreeIgnore                      =
             \ ['\.idea', '\.iml', '\.pyc', '\~$', '\.swo$', '\.git', '\.hg', '\.svn', '\.bzr', '\.DS_Store', 'tmp', 'gin-bin']
