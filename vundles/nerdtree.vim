@@ -9,8 +9,8 @@ NeoBundle 'jistr/vim-nerdtree-tabs'
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-"Ctrl+n to open the tree
-map <C-N> :NERDTreeToggle<CR>
+"Ctrl+t to open the tree at the left side to the current window
+map <C-T> :NERDTreeToggle<CR>
 let NERDTreeShowBookmarks               = 1
 let NERDTreeIgnore                      =
             \ ['\.idea', '\.iml', '\.pyc', '\~$', '\.swo$', '\.git', '\.hg', '\.svn', '\.bzr', '\.DS_Store', 'tmp', 'gin-bin']
